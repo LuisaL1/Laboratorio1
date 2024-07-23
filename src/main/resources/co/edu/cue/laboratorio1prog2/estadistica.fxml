@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="co.edu.cue.laboratorio1prog2.controllers.EstadisticasController">
+   <children>
+      <Label layoutX="173.0" layoutY="108.0" text="001">
+         <font>
+            <Font size="36.0" />
+         </font>
+      </Label>
+      <Label layoutX="273.0" layoutY="107.0" prefHeight="54.0" prefWidth="58.0" text="002">
+         <font>
+            <Font size="36.0" />
+         </font>
+      </Label>
+      <Label layoutX="368.0" layoutY="107.0" prefHeight="54.0" prefWidth="58.0" text="003">
+         <font>
+            <Font size="36.0" />
+         </font>
+      </Label>
+      <Label layoutX="170.0" layoutY="18.0" text="Cantidad Votos">
+         <font>
+            <Font name="System Bold" size="36.0" />
+         </font>
+      </Label>
+      <Label layoutX="273.0" layoutY="80.0" text="Mañana" />
+      <Label layoutX="278.0" layoutY="222.0" text="Tarde" />
+      <Label layoutX="166.0" layoutY="257.0" text="004">
+         <font>
+            <Font size="36.0" />
+         </font>
+      </Label>
+      <Label layoutX="266.0" layoutY="256.0" prefHeight="54.0" prefWidth="58.0" text="005">
+         <font>
+            <Font size="36.0" />
+         </font>
+      </Label>
+      <Label layoutX="361.0" layoutY="256.0" prefHeight="54.0" prefWidth="58.0" text="006">
+         <font>
+            <Font size="36.0" />
+         </font>
+      </Label>
+      <Label fx:id="lbCantidadVotos1" layoutX="181.0" layoutY="161.0" text="0" />
+      <Label fx:id="lbCantidadVotos2" layoutX="290.0" layoutY="161.0" text="0" />
+      <Label fx:id="lbCantidadVotos3" layoutX="397.0" layoutY="161.0" text="0" />
+      <Label fx:id="lbCantidadVotos4" layoutX="182.0" layoutY="310.0" text="0" />
+      <Label fx:id="lbCantidadVotos5" layoutX="291.0" layoutY="310.0" text="0" />
+      <Label fx:id="lbCantidadVotos6" layoutX="395.0" layoutY="310.0" text="0" />
+   </children>
+</AnchorPane>
